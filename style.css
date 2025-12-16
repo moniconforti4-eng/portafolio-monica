@@ -4,10 +4,6 @@
     --primary: #188b8d;
 }
 
-body.dark {
-    --bg: #1a1a1a;
-    --text: #f7d6d6;
-}
 
 body {
     margin: 0;
@@ -37,15 +33,7 @@ body {
     color: white;
     text-decoration: none;
 }
-#theme-toggle {
-    background: #188b8d;        /* fondo blanco */
-    border: 2px solid #f7f4f4;  /* borde rojo */
-    padding: 8px 12px;          /* espacio interno */
-    border-radius: 8px;         /* esquinas redondeadas */
-    font-size: 20px;            /* tamaño del emoji */
-    cursor: pointer;            /* cursor de botón */
-    transition: 0.3s;           /* animación suave */
-}
+
 
 /* PERSONAJE */
 .personaje {
@@ -76,18 +64,7 @@ body {
     gap: 20px;
 }
 
-.cargando {
-    background:#957f7f;
-    border: 1px solid #e82020;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-}
 
-.cargando img {
-    width: 100%;
-    border-radius: 10px;
-}
 
 /* FORM */
 .contact-form {
